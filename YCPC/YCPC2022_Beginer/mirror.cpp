@@ -10,7 +10,7 @@ int main(){
     cin>>n;
     ll s=n-2;
 
-    for(ll i=1;i<=n;i++){
+    rep(i,0,n){
         if(i==1){
             for(ll j=1;j<=n;j++){
                 cout<<j;
