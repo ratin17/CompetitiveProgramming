@@ -81,7 +81,7 @@ int main() {
     if(ms%2==0)ms=ms/2;
     else ms=(ms=ms/2)+1;
 
-
+    //check
     if(ms<=k)cout<<"YES"<<endl;
     else cout<<"NO"<<endl;    
 
